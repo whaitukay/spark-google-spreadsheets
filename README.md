@@ -34,7 +34,7 @@ This library supports different versions of Spark:
 Using SBT:
 
 ```
-libraryDependencies += "com.github.perbeatus" %% "spark-google-spreadsheets" % "0.6.3"
+libraryDependencies += "com.github.perbeatus" %% "spark-google-spreadsheets" % "0.7.0"
 ```
 
 Using Maven:
@@ -42,7 +42,7 @@ Using Maven:
 ```xml
 <dependency>
   <groupId>com.github.perbeatus</groupId>
-  <artifactId>spark-google-spreadsheets_2.12-3.0.1</artifactId>
+  <artifactId>spark-google-spreadsheets_2.12</artifactId>
   <version>0.7.0</version>
 </dependency>
 ```
