@@ -1,7 +1,7 @@
 name := "spark-google-spreadsheets"
 organization := "com.github.perbeatus"
 scalaVersion := "2.12.10"
-version := "0.7.0-SNAPSHOT"
+version := "0.7.0"
 spName := "perbeatus/spark-google-spreadsheets"
 spAppendScalaVersion := true
 spIncludeMaven := true
