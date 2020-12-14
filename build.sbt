@@ -1,13 +1,15 @@
 name := "spark-google-spreadsheets"
 organization := "com.github.perbeatus"
 scalaVersion := "2.12.10"
-crossScalaVersions := Seq("2.12.10")
 version := "0.7.0"
 spName := "perbeatus/spark-google-spreadsheets"
 spAppendScalaVersion := true
 spIncludeMaven := true
 spIgnoreProvided := true
-sparkVersion := "3.0.1"
+sparkVersion := { scalaBinaryVersion.value match {
+  case "2.12" => "3.0.1"
+  case _ => "2.4.5"
+}}
 
 val testSparkVersion = settingKey[String]("The version of Spark to test against.")
 
