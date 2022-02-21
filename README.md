@@ -1,18 +1,15 @@
+[![](https://jitpack.io/v/whaitukay/spark-google-spreadsheets.svg)](https://jitpack.io/#whaitukay/spark-google-spreadsheets)
+
 # THIS IS FORK
 
 This library is written by **Katsunori Kanda** ([github.com/potix2](https://github.com/potix2)) and all prises for it should go to him.
 
-This fork is ment to be usable in Scala 2.12 and Spark 3.0.1 which is now LTS version for Databricks platform.
+This fork is meant to be usable in Scala 2.12 and Spark 3.2.1.
 
 # Spark Google Spreadsheets
 
 Google Spreadsheets datasource for [SparkSQL and DataFrames](http://spark.apache.org/docs/latest/sql-programming-guide.html)
 
-## Notice
-
-The version 0.4.0 breaks compatibility with previous versions. You must
-use a ** spreadsheetId ** to identify which spreadsheet is to be accessed or altered.
-In older versions, spreadsheet name was used.
 
 If you don't know spreadsheetId, please read the [Introduction to the Google Sheets API v4](https://developers.google.com/sheets/guides/concepts).
 
@@ -24,6 +21,7 @@ This library supports different versions of Spark:
 
 | This library | Spark Version |
 | ------------ | ------------- |
+| 2.0.x        | 3.2.x         |
 | 0.7.x        | 3.0.1         |
 | 0.6.x        | 2.3.x, 2.4.x  |
 | 0.5.x        | 2.0.x         |
@@ -34,16 +32,16 @@ This library supports different versions of Spark:
 Using SBT:
 
 ```
-libraryDependencies += "com.github.perbeatus" %% "spark-google-spreadsheets" % "0.7.0"
+libraryDependencies += "com.github.whaitukay" %% "spark-google-spreadsheets" % "2.0.1"
 ```
 
 Using Maven:
 
 ```xml
 <dependency>
-  <groupId>com.github.perbeatus</groupId>
-  <artifactId>spark-google-spreadsheets_2.12</artifactId>
-  <version>0.7.0</version>
+  <groupId>com.github.whaitukay</groupId>
+  <artifactId>spark-google-spreadsheets</artifactId>
+  <version>2.0.1</version>
 </dependency>
 ```
 
